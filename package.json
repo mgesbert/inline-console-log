@@ -7,15 +7,15 @@
     "vscode": "^1.94.0"
   },
   "categories": [
-    "Other"
+    "Snippets"
   ],
   "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "inline-console-log.helloWorld",
-        "title": "Hello World"
+        "command": "inline-console-log.exec",
+        "title": "Inline Console Log"
       }
     ]
   },
